@@ -59,7 +59,7 @@ migrate the database
   article.flaggings
   
   # Get the flagging with a specified flag.
-  article.flaggings.with_flag(:flag_name)
+  article.flaggings.with_the_flag(:flag_name)
 
   # Get the flagger of the flagging.
   flagging = article.flaggings.with_flag(:flag_name).first
