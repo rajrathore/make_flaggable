@@ -62,7 +62,7 @@ migrate the database
   article.flaggings.with_the_flag(:flag_name)
 
   # Get the flagger of the flagging.
-  flagging = article.flaggings.with_flag(:flag_name).first
+  flagging = article.flaggings.with_the_flag(:flag_name).first
   user = flagging.flagger
 
   # Returns true if the flagger flagged the flaggable, false otherwise.
